@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
+import keydown, { Keys } from 'react-keydown'
 
-const Welcome = () => (
-  <div>
-    <h1>Welcome</h1>
-  </div>
-)
+class Welcome extends Component {
+  
+  componentWillReceiveProps({keydown}) {
+    if (keydown.event) {
+      switch (keydown.event.which) {
+        case Keys.right:
+          this.props.router.push('switches')
+          break
+        default:
+          break
+      }
+    }
+  }
 
-export default Welcome
+  render() {
+    return (
+      <div>
+        <h1>Welcome</h1>
+      </div>
+    )
+  }
+}
+
+export default keydown(Welcome)
