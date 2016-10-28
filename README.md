@@ -1,3 +1,19 @@
+##
+
+Order:
+1-conclusion
+2-first-overview
+3-first-recap
+4-react-redux-connection
+5-redux-unidirectional-flow
+6-switches
+7-performance
+8-reusable-components
+9-final-recap
+10-thanks
+
+## create-react-app README
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.  

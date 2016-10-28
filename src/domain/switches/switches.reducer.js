@@ -1,6 +1,6 @@
 // Actions
 
-export const TOGGLE_ALL = 'broken-store/switches/TOGGLE_ALL'
+export const TOGGLE_ALL = 'redux-tech-demo/switches/TOGGLE_ALL'
 
 // Reducer
 
