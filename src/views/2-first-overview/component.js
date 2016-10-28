@@ -19,7 +19,30 @@ class FirstOverview extends Component {
 
   render() {
     return (
-      <p>FirstOverview</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Overview
+        </h1>
+
+        <h2 className='slide-subtitle'>
+          Who I am
+        </h2>
+        <p className='slide-paragraph'>Six years of front & back end web dev / Spotify & McKinsey</p>
+
+        <h2 className='slide-subtitle'>
+          What I am showing
+        </h2>
+        <p className='slide-paragraph'>React - Javascript library for building user interfaces</p>
+        <p className='slide-paragraph'>Redux - Predictable state container for javascript apps</p>
+        <p className='slide-paragraph'>This demo is built using React & Redux</p>
+
+        <h2 className='slide-subtitle'>
+          Why React & Redux
+        </h2>
+        <p className='slide-paragraph'>Scales - Unidirectional flow</p>
+        <p className='slide-paragraph'>Performance - Virtual DOM</p>
+        <p className='slide-paragraph'>Quick development - Reusable components</p>
+      </div>
     )
   }
 }

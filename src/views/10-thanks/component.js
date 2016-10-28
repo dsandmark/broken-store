@@ -16,7 +16,14 @@ class Thanks extends Component {
 
   render() {
     return (
-      <p>Thank You</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Thank you - Questions?
+        </h1>
+
+        <p className='slide-paragraph'><small>Images from https://css-tricks.com/learning-react-redux</small></p>
+        <p className='slide-paragraph'><small>Source code for this app: https://github.com/dsandmark/redux-tech-demo</small></p>
+      </div>
     )
   }
 }
