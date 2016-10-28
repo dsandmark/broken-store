@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux'
 
-import Switches from './switches/switches.reducer.js'
+import switches from './switches/switches.reducer.js'
 
 const rootReducer = combineReducers({
-  Switches,
+  switches,
 })
 
 export default rootReducer

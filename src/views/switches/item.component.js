@@ -48,10 +48,8 @@ Item.PropTypes = {
   forceToggled: PropTypes.bool.isRequired,
 }
 
-function mapStateToProps(state) {
-  return {
-    forceToggled: state.allToggled,
-  }
-}
+const mapStateToProps = (state) => ({
+  forceToggled: state.switches.allToggled,
+})
 
 export default connect(mapStateToProps)(Item)
