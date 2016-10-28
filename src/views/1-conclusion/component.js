@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
 
-class Welcome extends Component {
-  
+class Conclusion extends Component {
   componentWillReceiveProps({keydown}) {
     if (keydown.event) {
       switch (keydown.event.which) {
         case Keys.right:
-          this.props.router.push('conclusion')
+          this.props.router.push('first-overview')
           break
         default:
           break
@@ -17,11 +16,9 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Welcome</h1>
-      </div>
+      <p>Conclusion</p>
     )
   }
 }
 
-export default keydown(Welcome)
+export default keydown(Conclusion)

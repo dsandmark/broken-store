@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
 
-class Welcome extends Component {
-  
+class ReusableComponents extends Component {
   componentWillReceiveProps({keydown}) {
     if (keydown.event) {
       switch (keydown.event.which) {
+        case Keys.left:
+          this.props.router.push('performance')
+          break
         case Keys.right:
-          this.props.router.push('conclusion')
+          this.props.router.push('final-recap')
           break
         default:
           break
@@ -17,11 +19,9 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Welcome</h1>
-      </div>
+      <p>ReusableComponents</p>
     )
   }
 }
 
-export default keydown(Welcome)
+export default keydown(ReusableComponents)

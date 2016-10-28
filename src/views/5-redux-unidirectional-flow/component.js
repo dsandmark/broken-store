@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
 
-class Welcome extends Component {
-  
+class ReduxUnidirectionalFlow extends Component {
   componentWillReceiveProps({keydown}) {
     if (keydown.event) {
       switch (keydown.event.which) {
+        case Keys.left:
+          this.props.router.push('react-redux-connection')
+          break
         case Keys.right:
-          this.props.router.push('conclusion')
+          this.props.router.push('switches')
           break
         default:
           break
@@ -17,11 +19,9 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Welcome</h1>
-      </div>
+      <p>ReduxUnidirectionalFlow</p>
     )
   }
 }
 
-export default keydown(Welcome)
+export default keydown(ReduxUnidirectionalFlow)
