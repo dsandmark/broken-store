@@ -19,7 +19,17 @@ class FirstRecap extends Component {
 
   render() {
     return (
-      <p>FirstRecap</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Let's make it clear
+        </h1>
+
+        <h2 className='slide-subtitle'>React</h2>
+        <p className='slide-paragraph'>Web Components</p>
+
+        <h2 className='slide-subtitle'>Redux</h2>
+        <p className='slide-paragraph'>Manage App State</p>
+      </div>
     )
   }
 }

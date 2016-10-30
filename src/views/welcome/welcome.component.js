@@ -19,8 +19,10 @@ class Welcome extends Component {
     return (
       <div className='slide-container'>
         <h1 className='slide-title'>
-          Welcome
+          Welcome to an interactive slide show
         </h1>
+
+        <p className='slide-paragraph'>Since my last interview</p>
       </div>
     )
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
+import actionFlowImage from '../../resources/images/action-flow.svg'
 
 class ReactReduxConnection extends Component {
   componentWillReceiveProps({keydown}) {
@@ -19,7 +20,20 @@ class ReactReduxConnection extends Component {
 
   render() {
     return (
-      <p>ReactReduxConnection</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Connecting React & Redux
+        </h1>
+
+        <h2 className='slide-subtitle'>Redux store</h2>
+        <p className='slide-paragraph'>State</p>
+        <p className='slide-paragraph'>Dispatch action to modify state</p>
+        <img src={actionFlowImage} alt='Action flow' width='600' />
+
+        <h2 className='slide-subtitle'>React Component</h2>
+        <p className='slide-paragraph'>Subscribes to Redux state changes</p>
+
+      </div>
     )
   }
 }

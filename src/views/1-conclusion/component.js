@@ -25,9 +25,9 @@ class Conclusion extends Component {
           Conclusion
         </h1>
 
-        <h2 className='slide-paragraph'>
+        <p className='slide-paragraph'>
           You should use React & Redux for web development
-        </h2>
+        </p>
       </div>
     )
   }
