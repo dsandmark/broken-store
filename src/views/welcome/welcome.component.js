@@ -19,7 +19,7 @@ class Welcome extends Component {
     return (
       <div className='slide-container'>
         <h1 className='slide-title'>
-          Welcome to an interactive slide show
+          Interactive Slide Show
         </h1>
 
         <p className='slide-paragraph'>Since my last interview</p>
