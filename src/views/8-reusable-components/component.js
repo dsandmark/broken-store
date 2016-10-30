@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
 import Modal from 'react-modal'
 import FlatButton from 'material-ui/FlatButton'
-import RaisedButton from 'material-ui/RaisedButton'
 
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
@@ -74,7 +73,7 @@ class ReusableComponents extends Component {
 
           <h2 className='slide-subtitle'>No need to reinvent the wheel</h2>
 
-          <RaisedButton
+          <FlatButton
             onClick={this.openModal}
             label='Modal'
             primary={true}

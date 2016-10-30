@@ -19,7 +19,20 @@ class FinalRecap extends Component {
 
   render() {
     return (
-      <p>FinalRecap</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Sum it up
+        </h1>
+
+        <h2 className='slide-subtitle'>Scales</h2>
+        <p className='slide-paragraph'>Unidirectional flow</p>
+
+        <h2 className='slide-subtitle'>Performant</h2>
+        <p className='slide-paragraph'>Virtual DOM</p>
+
+        <h2 className='slide-subtitle'>Quick development</h2>
+        <p className='slide-paragraph'>Reusable components</p>
+      </div>
     )
   }
 }
