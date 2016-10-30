@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import keydown, { Keys } from 'react-keydown'
+import unidirectionalFlowImage from '../../resources/images/unidirectional-flow.svg'
 
 class ReduxUnidirectionalFlow extends Component {
   componentWillReceiveProps({keydown}) {
@@ -19,7 +20,15 @@ class ReduxUnidirectionalFlow extends Component {
 
   render() {
     return (
-      <p>ReduxUnidirectionalFlow</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Redux Unidirectional flow
+        </h1>
+
+        <img src={unidirectionalFlowImage} alt='Unidirectional flow' />
+
+      </div>
+      
     )
   }
 }

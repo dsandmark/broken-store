@@ -19,7 +19,21 @@ class Performance extends Component {
 
   render() {
     return (
-      <p>Performance</p>
+      <div className='slide-container'>
+        <h1 className='slide-title'>
+          Performance
+        </h1>
+
+        <h2 className='slide-subtitle'>DOM</h2>
+        <p className='slide-paragraph'>API to manipulate an HTML website</p>
+
+        <h2 className='slide-subtitle'>Virtual DOM</h2>
+        <p className='slide-paragraph'>In-memory representation of DOM</p>
+
+        <h2 className='slide-subtitle'>React Performance</h2>
+        <p className='slide-paragraph'>Diff between its virtual DOM and real DOM - only update necessary nodes</p>
+        <p className='slide-paragraph'>Batch Updates</p>
+      </div>
     )
   }
 }
