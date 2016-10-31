@@ -34,7 +34,6 @@ class FirstOverview extends Component {
         </h2>
         <p className='slide-paragraph'>React - Javascript library for building user interfaces</p>
         <p className='slide-paragraph'>Redux - Predictable state container for javascript apps</p>
-        <p className='slide-paragraph'>This demo is built using React & Redux</p>
 
         <h2 className='slide-subtitle'>
           Why React & Redux

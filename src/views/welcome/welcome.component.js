@@ -19,10 +19,17 @@ class Welcome extends Component {
     return (
       <div className='slide-container'>
         <h1 className='slide-title'>
-          Interactive Slide Show
+          Since my interview
         </h1>
 
-        <p className='slide-paragraph'>Since my last interview</p>
+        <h2 className='slide-subtitle'>Back then</h2>
+        <p className='slide-paragraph'>React & Redux concepts on whitboard</p>
+
+        <h2 className='slide-subtitle'>Check-in task</h2>
+        <p className='slide-paragraph'>Introduction to React & Redux through the medium of some kind of prototype</p>
+
+        <h2 className='slide-subtitle'>Now showing</h2>
+        <p className='slide-paragraph'>Interactive Slide Show made with React & Redux</p>
       </div>
     )
   }
