@@ -23,7 +23,7 @@ class Welcome extends Component {
         </h1>
 
         <h2 className='slide-subtitle'>Back then</h2>
-        <p className='slide-paragraph'>React & Redux concepts on whitboard</p>
+        <p className='slide-paragraph'>React & Redux concepts on whiteboard</p>
 
         <h2 className='slide-subtitle'>Check-in task</h2>
         <p className='slide-paragraph'>Introduction to React & Redux through the medium of some kind of prototype</p>

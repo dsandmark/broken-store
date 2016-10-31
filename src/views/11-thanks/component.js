@@ -21,7 +21,7 @@ class Thanks extends Component {
           Thank you
         </h1>
 
-        <p className='slide-paragraph'><small>Images from https://css-tricks.com/learning-react-redux</small></p>
+        <p className='slide-paragraph'><small>Some images from https://css-tricks.com/learning-react-redux</small></p>
         <p className='slide-paragraph'><small>Source code for this app: https://github.com/dsandmark/redux-tech-demo</small></p>
       </div>
     )
