@@ -15,12 +15,13 @@ import Conclusion from './views/1-conclusion/component'
 import FirstOverview from './views/2-first-overview/component'
 import FirstRecap from './views/3-first-recap/component'
 import ReactReduxConnection from './views/4-react-redux-connection/component'
-import ReduxUnidirectionalFlow from './views/5-redux-unidirectional-flow/component'
-import Switches from './views/6-switches/component'
-import Performance from './views/7-performance/component'
-import ReusableComponents from './views/8-reusable-components/component'
-import FinalRecap from './views/9-final-recap/component'
-import Thanks from './views/10-thanks/component'
+import ReactReduxFullFlow from './views/5-react-redux-full-flow/component'
+import ReduxUnidirectionalFlow from './views/6-redux-unidirectional-flow/component'
+import Switches from './views/7-switches/component'
+import Performance from './views/8-performance/component'
+import ReusableComponents from './views/9-reusable-components/component'
+import FinalRecap from './views/10-final-recap/component'
+import Thanks from './views/11-thanks/component'
 
 const logger = createLogger()
 
@@ -38,6 +39,7 @@ ReactDOM.render(
         <Route path='first-overview' component={FirstOverview}/>
         <Route path='first-recap' component={FirstRecap}/>
         <Route path='react-redux-connection' component={ReactReduxConnection}/>
+        <Route path='react-redux-full-flow' component={ReactReduxFullFlow}/>
         <Route path='redux-unidirectional-flow' component={ReduxUnidirectionalFlow}/>
         <Route path='switches' component={Switches}/>
         <Route path='performance' component={Performance}/>

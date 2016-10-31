@@ -5,12 +5,13 @@ Order:
 2-first-overview
 3-first-recap
 4-react-redux-connection
-5-redux-unidirectional-flow
-6-switches
-7-performance
-8-reusable-components
-9-final-recap
-10-thanks
+5-react-redux-full-flow
+6-redux-unidirectional-flow
+7-switches
+8-performance
+9-reusable-components
+10-final-recap
+11-thanks
 
 ## create-react-app README
 

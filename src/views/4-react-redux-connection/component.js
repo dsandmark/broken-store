@@ -10,7 +10,7 @@ class ReactReduxConnection extends Component {
           this.props.router.push('first-recap')
           break
         case Keys.right:
-          this.props.router.push('redux-unidirectional-flow')
+          this.props.router.push('react-redux-full-flow')
           break
         default:
           break

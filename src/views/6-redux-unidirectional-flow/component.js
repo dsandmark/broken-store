@@ -7,7 +7,7 @@ class ReduxUnidirectionalFlow extends Component {
     if (keydown.event) {
       switch (keydown.event.which) {
         case Keys.left:
-          this.props.router.push('react-redux-connection')
+          this.props.router.push('react-redux-full-flow')
           break
         case Keys.right:
           this.props.router.push('switches')
