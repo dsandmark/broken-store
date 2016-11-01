@@ -26,8 +26,8 @@ class ReactReduxConnection extends Component {
         </h1>
 
         <h2 className='slide-subtitle'>Redux store</h2>
-        <p className='slide-paragraph'>State</p>
-        <p className='slide-paragraph'>Dispatch action to modify state</p>
+        <p className='slide-paragraph'>State - Single source of truth</p>
+        <p className='slide-paragraph'>Action - Dispatched to modify state</p>
         <img src={actionFlowImage} alt='Action flow' width='600' />
 
         <h2 className='slide-subtitle'>React Component</h2>
